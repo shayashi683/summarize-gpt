@@ -37,7 +37,7 @@ def select_model():
     # 初期値は0.0、刻み幅は0.1とする
     temperature = st.sidebar.slider("Temperature:", min_value=0.0, max_value=2.0, value=0.0, step=0.01)
 
-    return ChatOpenAI(openai_api_key="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", temperature=temperature, model_name=model_name, streaming=True)
+    return ChatOpenAI(temperature=temperature, model_name=model_name, streaming=True)
 
 
 def main():
