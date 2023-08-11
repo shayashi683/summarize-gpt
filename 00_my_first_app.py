@@ -11,7 +11,6 @@ from langchain.callbacks import get_openai_callback
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from streamlit_chat import message
 
 
 def init_page():
