@@ -3,5 +3,4 @@ langchain
 streamlit
 streamlit-chat==0.1.0
 requests
-bs4
-urllib
+beautifulsoup4
